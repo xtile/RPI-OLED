@@ -1,5 +1,5 @@
 # -*- coding:utf-8 -*-
-import SH1106
+#import SH1106
 import time
 import config
 import traceback
