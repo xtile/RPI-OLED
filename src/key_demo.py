@@ -76,28 +76,28 @@ GPIO.setup(KEY3_PIN,        GPIO.IN, pull_up_down=GPIO.PUD_UP)      # Input with
 # try:
 while 1:
     # with canvas(device) as draw:
-    if GPIO.input(KEY_UP_PIN): # button is released
+    if !GPIO.input(KEY_UP_PIN): # button is released
         print "Up"
         
-    if GPIO.input(KEY_LEFT_PIN): # button is released
+    if !GPIO.input(KEY_LEFT_PIN): # button is released
         print "left"
         
-    if GPIO.input(KEY_RIGHT_PIN): # button is released
+    if !GPIO.input(KEY_RIGHT_PIN): # button is released
         print "right"        
         
-    if GPIO.input(KEY_DOWN_PIN): # button is released
+    if !GPIO.input(KEY_DOWN_PIN): # button is released
         print "down"
         
-    if GPIO.input(KEY_PRESS_PIN): # button is released
+    if !GPIO.input(KEY_PRESS_PIN): # button is released
         print "center"
         
-    if GPIO.input(KEY1_PIN): # button is released
+    if !GPIO.input(KEY1_PIN): # button is released
         print "KEY1"
         
-    if GPIO.input(KEY2_PIN): # button is released
+    if !GPIO.input(KEY2_PIN): # button is released
         print "KEY2"
         
-    if GPIO.input(KEY3_PIN): # button is released
+    if !GPIO.input(KEY3_PIN): # button is released
         print "KEY3"
         
     #disp.ShowImage(disp.getbuffer(image))
