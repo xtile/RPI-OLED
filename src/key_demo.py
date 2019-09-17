@@ -1,7 +1,7 @@
 # -*- coding:utf-8 -*-
 #import SH1106
 import time
-import config
+#import config
 import traceback
 
 import RPi.GPIO as GPIO
