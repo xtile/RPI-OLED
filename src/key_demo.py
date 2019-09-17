@@ -9,9 +9,9 @@ import RPi.GPIO as GPIO
 import time
 import subprocess
 
-from PIL import Image
-from PIL import ImageDraw
-from PIL import ImageFont
+#from PIL import Image
+#from PIL import ImageDraw
+#from PIL import ImageFont
 
 #GPIO define
 RST_PIN        = 25
@@ -64,7 +64,7 @@ GPIO.setup(KEY3_PIN,        GPIO.IN, pull_up_down=GPIO.PUD_UP)      # Input with
 # Create blank image for drawing.
 # Make sure to create image with mode '1' for 1-bit color.
 
-image = Image.new('1', (disp.width, disp.height))
+#image = Image.new('1', (disp.width, disp.height))
 
 # Get drawing object to draw on image.
 #draw = ImageDraw.Draw(image)
