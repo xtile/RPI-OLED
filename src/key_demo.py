@@ -77,50 +77,50 @@ image = Image.new('1', (disp.width, disp.height))
 while 1:
     # with canvas(device) as draw:
     if GPIO.input(KEY_UP_PIN): # button is released
-        #draw.polygon([(20, 20), (30, 2), (40, 20)], outline=255, fill=1)  #Up
+        ;#draw.polygon([(20, 20), (30, 2), (40, 20)], outline=255, fill=1)  #Up
         
     else: # button is pressed:
         #draw.polygon([(20, 20), (30, 2), (40, 20)], outline=255, fill=0)  #Up filled
         print "Up"
         
     if GPIO.input(KEY_LEFT_PIN): # button is released
-        #draw.polygon([(0, 30), (18, 21), (18, 41)], outline=255, fill=1)  #left
+        ;#draw.polygon([(0, 30), (18, 21), (18, 41)], outline=255, fill=1)  #left
     else: # button is pressed:
         #draw.polygon([(0, 30), (18, 21), (18, 41)], outline=255, fill=0)  #left filled
         print "left"
         
     if GPIO.input(KEY_RIGHT_PIN): # button is released
-        #draw.polygon([(60, 30), (42, 21), (42, 41)], outline=255, fill=1) #right
+        ;#draw.polygon([(60, 30), (42, 21), (42, 41)], outline=255, fill=1) #right
     else: # button is pressed:
         #draw.polygon([(60, 30), (42, 21), (42, 41)], outline=255, fill=0) #right filled
         print "right"        
         
     if GPIO.input(KEY_DOWN_PIN): # button is released
-        #draw.polygon([(30, 60), (40, 42), (20, 42)], outline=255, fill=1) #down
+        ;#draw.polygon([(30, 60), (40, 42), (20, 42)], outline=255, fill=1) #down
     else: # button is pressed:
         #draw.polygon([(30, 60), (40, 42), (20, 42)], outline=255, fill=0) #down filled
         print "down"
         
     if GPIO.input(KEY_PRESS_PIN): # button is released
-        #draw.rectangle((20, 22,40,40), outline=255, fill=1) #center 
+        ;#draw.rectangle((20, 22,40,40), outline=255, fill=1) #center 
     else: # button is pressed:
         #draw.rectangle((20, 22,40,40), outline=255, fill=0) #center filled
         print "center"
         
     if GPIO.input(KEY1_PIN): # button is released
-        #draw.ellipse((70,0,90,20), outline=255, fill=1) #A button
+        ;#draw.ellipse((70,0,90,20), outline=255, fill=1) #A button
     else: # button is pressed:
         #draw.ellipse((70,0,90,20), outline=255, fill=0) #A button filled
         print "KEY1"
         
     if GPIO.input(KEY2_PIN): # button is released
-        #draw.ellipse((100,20,120,40), outline=255, fill=1) #B button]
+        ;#draw.ellipse((100,20,120,40), outline=255, fill=1) #B button]
     else: # button is pressed:
         #draw.ellipse((100,20,120,40), outline=255, fill=0) #B button filled
         print "KEY2"
         
     if GPIO.input(KEY3_PIN): # button is released
-        #draw.ellipse((70,40,90,60), outline=255, fill=1) #A button
+        ;#draw.ellipse((70,40,90,60), outline=255, fill=1) #A button
     else: # button is pressed:
         #draw.ellipse((70,40,90,60), outline=255, fill=0) #A button filled
         print "KEY3"
